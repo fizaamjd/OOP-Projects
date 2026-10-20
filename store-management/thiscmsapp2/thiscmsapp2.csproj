@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CAC998B4-3454-4580-AA33-A5E472BE2FDF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>thiscmsapp2</RootNamespace>
+    <AssemblyName>thiscmsapp2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Adminopt1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Adminopt1.Designer.cs">
+      <DependentUpon>Adminopt1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Adminopt2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Adminopt2.Designer.cs">
+      <DependentUpon>Adminopt2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Adminopt3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Adminopt3.Designer.cs">
+      <DependentUpon>Adminopt3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Adminopt4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Adminopt4.Designer.cs">
+      <DependentUpon>Adminopt4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Adminopt5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Adminopt5.Designer.cs">
+      <DependentUpon>Adminopt5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Adminopt6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Adminopt6.Designer.cs">
+      <DependentUpon>Adminopt6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Adminopt7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Adminopt7.Designer.cs">
+      <DependentUpon>Adminopt7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Adminopt8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Adminopt8.Designer.cs">
+      <DependentUpon>Adminopt8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Adminopt9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Adminopt9.Designer.cs">
+      <DependentUpon>Adminopt9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Adminoptionsform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Adminoptionsform.Designer.cs">
+      <DependentUpon>Adminoptionsform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Custoopt1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Custoopt1.Designer.cs">
+      <DependentUpon>Custoopt1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Custopt2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Custopt2.Designer.cs">
+      <DependentUpon>Custopt2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Custopt3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Custopt3.Designer.cs">
+      <DependentUpon>Custopt3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Custopt4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Custopt4.Designer.cs">
+      <DependentUpon>Custopt4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Custoptionsform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Custoptionsform.Designer.cs">
+      <DependentUpon>Custoptionsform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Custopt5part2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Custopt5part2.Designer.cs">
+      <DependentUpon>Custopt5part2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Custsignupform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Custsignupform.Designer.cs">
+      <DependentUpon>Custsignupform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Adminsignupform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Adminsignupform.Designer.cs">
+      <DependentUpon>Adminsignupform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Signinform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Signinform.Designer.cs">
+      <DependentUpon>Signinform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Welcomeform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Welcomeform.Designer.cs">
+      <DependentUpon>Welcomeform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Mainform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Mainform.Designer.cs">
+      <DependentUpon>Mainform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="stockBL\Category.cs" />
+    <Compile Include="Forms\Custopt5part1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Custopt5part1.Designer.cs">
+      <DependentUpon>Custopt5part1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stockBL\MyProduct.cs" />
+    <Compile Include="stockBL\Stock.cs" />
+    <Compile Include="stockDL\myproductDL.cs" />
+    <Compile Include="userBL\myAdmin.cs" />
+    <Compile Include="userBL\myCustomer.cs" />
+    <Compile Include="userBL\myUser.cs" />
+    <Compile Include="userDL\myUserDL.cs" />
+    <Compile Include="Validations.cs" />
+    <EmbeddedResource Include="Forms\Adminopt1.resx">
+      <DependentUpon>Adminopt1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Adminopt2.resx">
+      <DependentUpon>Adminopt2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Adminopt3.resx">
+      <DependentUpon>Adminopt3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Adminopt4.resx">
+      <DependentUpon>Adminopt4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Adminopt5.resx">
+      <DependentUpon>Adminopt5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Adminopt6.resx">
+      <DependentUpon>Adminopt6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Adminopt7.resx">
+      <DependentUpon>Adminopt7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Adminopt8.resx">
+      <DependentUpon>Adminopt8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Adminopt9.resx">
+      <DependentUpon>Adminopt9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Adminoptionsform.resx">
+      <DependentUpon>Adminoptionsform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Custoopt1.resx">
+      <DependentUpon>Custoopt1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Custopt2.resx">
+      <DependentUpon>Custopt2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Custopt3.resx">
+      <DependentUpon>Custopt3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Custopt4.resx">
+      <DependentUpon>Custopt4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Custoptionsform.resx">
+      <DependentUpon>Custoptionsform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Custopt5part2.resx">
+      <DependentUpon>Custopt5part2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Custsignupform.resx">
+      <DependentUpon>Custsignupform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Adminsignupform.resx">
+      <DependentUpon>Adminsignupform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Signinform.resx">
+      <DependentUpon>Signinform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Welcomeform.resx">
+      <DependentUpon>Welcomeform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Mainform.resx">
+      <DependentUpon>Mainform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Forms\Custopt5part1.resx">
+      <DependentUpon>Custopt5part1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-07-23 at 9.20.14 AM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="users.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ItemGroup><Content Include="users.txt"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content><Content Include="products.txt"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content></ItemGroup>
+</Project>

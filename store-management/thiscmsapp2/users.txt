@@ -1,0 +1,2 @@
+DemoAdmin,CourseworkOnly123,admin
+DemoCustomer,CourseworkOnly123,customer

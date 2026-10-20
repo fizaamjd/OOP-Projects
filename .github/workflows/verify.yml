@@ -1,0 +1,22 @@
+name: Verify coursework
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  windows-build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: microsoft/setup-msbuild@v2
+      - uses: NuGet/setup-nuget@v2
+      - run: nuget restore pacman/PacMan.sln
+      - run: msbuild pacman/PacMan.sln /p:Configuration=Release
+      - run: msbuild store-management/thiscmsapp2.sln /p:Configuration=Release
+  python-syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m compileall -q python-exercises

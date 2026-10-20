@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="thiscmsapp2.stockBL.Category">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAARABEAAAAIAAAAEAAAA=</HashCode>
+      <FileName>stockBL\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="thiscmsapp2.stockBL.MyProduct">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAACgAAAAAAAAAAAEAABAAAAEAAAACAA=</HashCode>
+      <FileName>stockBL\MyProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="thiscmsapp2.stockBL.Stock">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQAAIAAgAAAAAAAAAAACEQAAABAiCACACAACAAAAM=</HashCode>
+      <FileName>stockBL\Stock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="thiscmsapp2.stockDL.myproductDL">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEEAAAAAAAACCAIEAAGkAgAAAAAAYAAAAAAEAA=</HashCode>
+      <FileName>stockDL\myproductDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="thiscmsapp2.userBL.myAdmin">
+    <Position X="9.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>userBL\myAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="thiscmsapp2.userBL.myCustomer">
+    <Position X="11.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAIAAAAABAAAAAAAABECAAAAAAAAIAIAAAAAAAgA=</HashCode>
+      <FileName>userBL\myCustomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="thiscmsapp2.userBL.myUser">
+    <Position X="10.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAQAAABBAAAAAAIBAAAAAAEAABAAAAEAgAAAIA=</HashCode>
+      <FileName>userBL\myUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="thiscmsapp2.userDL.myUserDL">
+    <Position X="7" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAgAAABAAAAAAAAAAIACEAAAAAgAAAA=</HashCode>
+      <FileName>userDL\myUserDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

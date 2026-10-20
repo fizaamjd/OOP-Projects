@@ -1,0 +1,11 @@
+name: Bug report
+description: Report a reproducible problem
+title: "[Bug] "
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include platform, setup, expected behavior, and actual behavior.
+    validations:
+      required: true
