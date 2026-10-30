@@ -8,6 +8,20 @@ Original object-oriented coursework organized into two C# applications and a sma
 | PacMan | C# console maze game, .NET Framework 4.7.2, EZInput | [Game guide](docs/PACMAN.md) |
 | Python exercises | Original classroom exercises | [Source](python-exercises) |
 
+## Demos
+
+| | |
+| --- | --- |
+| [![Store management demo](docs/media/store-management-poster.jpg)](docs/media/store-management.mp4) | [![PacMan demo](docs/media/pacman-poster.jpg)](docs/media/pacman.mp4) |
+| [Store management](docs/media/store-management.mp4) · 31s | [PacMan](docs/media/pacman.mp4) · 23s |
+
+Both are cut from one original screen recording of the applications running on
+Windows. The store demo follows a single path: the landing screen, an admin
+adding stock, the admin menu, the customer menu, a cart being filled and the
+printed bill. The PacMan demo is continuous play. Cross dissolves mark the cuts;
+nothing is sped up, and the recorder's own window chrome and watermarks are
+cropped out rather than left in frame.
+
 ## Run
 
 Use Windows and Visual Studio 2022 with the .NET desktop development workload and .NET Framework 4.7.2 targeting pack. Open `store-management/thiscmsapp2.sln` or `pacman/PacMan.sln`. Restore NuGet packages for PacMan before building. The GUI-only `PacManGUI.sln` from the source folder has no matching project files, so it is documented in provenance rather than presented as a runnable game.
